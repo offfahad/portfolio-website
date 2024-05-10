@@ -1,5 +1,5 @@
 function runTypingEffect() {
-    const texts = ["It's me, Fahad.", "I'm the Problem."]; // Add more text if needed
+    const texts = ["It's me, Fahad.", " I'm the Problem."]; // Add more text if needed
     const typingElement = document.getElementById('typing-text');
     const typingDelay = 170; // Adjust the delay between iterations
 
