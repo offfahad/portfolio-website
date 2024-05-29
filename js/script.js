@@ -1,5 +1,5 @@
 function runTypingEffect() {
-    const texts = ["It's me, Fahad.", "AI and Flutter Developer"]; // Add more text if needed
+    const texts = ["It's me, Fahad.", "Welcome To My World"]; // Add more text if needed
     const typingElement = document.getElementById('typing-text');
     const typingDelay = 170; // Adjust the delay between iterations
 
