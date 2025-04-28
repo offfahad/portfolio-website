@@ -18,6 +18,11 @@
   z-index: 10;
 }
 
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word; /* Optional: Defines the justification behavior for the text */
+}
+
 .header .roles {
   font-family: "lora-regular", serif;
 }
@@ -71,14 +76,5 @@
     margin-bottom: 40px;
     border-bottom: var(--bs-dark) solid 1px;
     padding-bottom: 20px;
-  }
-  .footer {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  .hstack{
-    justify-content: center;
-    text-align: center;
   }
 }
