@@ -4,6 +4,11 @@
   background-attachment: fixed;
 }
 
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .header::after {
   content: "";
   position: absolute;
@@ -16,11 +21,6 @@
 
 .header .text-container {
   z-index: 10;
-}
-
-.text-justify {
-  text-align: justify;
-  text-justify: inter-word; /* Optional: Defines the justification behavior for the text */
 }
 
 .header .roles {
